@@ -1,0 +1,78 @@
+/* Eliminar márgenes por defecto y usar letra Arial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6edf5; /* Fondo gris azulado claro */
+    color: #333333;
+}
+
+/* La cabecera azul oscuro */
+header {
+    background-color: #1a2b4c;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Centrar el contenido principal */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 30px;
+}
+
+/* El botón dorado */
+button {
+    background-color: #d4af37;
+    color: #1a2b4c;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px; /* Esquinas redondeadas */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el ratón por encima */
+button:hover {
+    background-color: #b5952f;
+}
+#mensaje {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a2b4c;
+}
+/* Diseño adaptable para móviles */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 15px;
+    }
+    
+    main {
+        padding: 30px 15px;
+    }
+    
+    main h2 {
+        font-size: 22px;
+    }
+    
+    button {
+        width: 100%; /* Hace que el botón ocupe todo el ancho en el móvil */
+    }
+}
